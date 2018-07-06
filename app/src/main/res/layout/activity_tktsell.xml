@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/gradient"
+    >
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="SELL YOUR TICKETS"
+                android:textColor="@color/colorAccent"
+                android:textSize="40dp"/>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Name"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the name of the movie"
+                    android:id="@+id/mname"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Theatre Name"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the name of the theatre"
+                    android:id="@+id/tname"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose ur date"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"/>
+
+                <DatePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:datePickerMode="calendar"
+
+                    android:id="@+id/mdate"
+
+                    ></DatePicker>
+
+                <!--  <EditText
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="DD/MM/YYYY"
+                      android:id="@+id/mdate"/>-->
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Showtime"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"/>
+                <TimePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:timePickerMode="spinner"
+                    android:id="@+id/mtime">
+
+                </TimePicker>
+                <!--  <EditText
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="HH:MM"
+                      android:id="@+id/mtime"/>-->
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No.of seats"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the no"
+                    android:id="@+id/mno"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Person Name"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter ur name"
+                    android:id="@+id/pname"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Cost"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the no"
+                    android:id="@+id/mcos"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile No"
+                    android:inputType="phone"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the no"
+                    android:id="@+id/mob"/>
+            </TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="EXCHANGE"
+                android:id="@+id/sell"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorAccent"/>
+        </TableLayout>
+
+
+    </HorizontalScrollView>
+</ScrollView>

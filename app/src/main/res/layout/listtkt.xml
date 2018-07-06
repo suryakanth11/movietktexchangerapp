@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient" >
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#F33232"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:id="@+id/mov"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie"
+            android:textColor="#83164D"
+            android:textSize="30dp" />
+
+    </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mayajaal Cinemas"
+                android:textColor="#F33232"
+                android:fontFamily="serif"
+                android:textSize="30dp"
+                android:id="@+id/thn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theatre"
+                android:textColor="#83164D"
+                android:textSize="30dp" />
+        </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12-02-2018"
+            android:textColor="#F33232"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:id="@+id/dat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="#83164D"
+            android:textSize="30dp" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mayajaal Cinemas"
+            android:textColor="#F33232"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:id="@+id/neram"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Showtime"
+            android:textColor="#83164D"
+            android:textSize="30dp" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mayajaal Cinemas"
+            android:textColor="#F33232"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:id="@+id/seat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No.of seats"
+            android:textColor="#83164D"
+            android:textSize="30dp" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mayajaal Cinemas"
+            android:textColor="#F33232"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:id="@+id/peru"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person Name"
+            android:textColor="#83164D"
+            android:textSize="30dp" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mayajaal Cinemas"
+            android:textColor="#F33232"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:id="@+id/kaasu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Cost"
+            android:textColor="#83164D"
+            android:textSize="30dp" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:clickable="true"
+            android:src="@drawable/myimage"
+            android:id="@+id/phid">
+        </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mayajaal"
+        android:textSize="40dp"
+        android:textColor="#F33232"
+        android:id="@+id/ph"/>
+
+
+    </TableRow>
+    </TableLayout>
+</HorizontalScrollView>
+</LinearLayout>
